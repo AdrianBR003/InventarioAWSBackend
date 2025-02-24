@@ -1,31 +1,41 @@
 package com.aws.inventario.Controller;
 
 
-import com.aws.inventario.Model.Producto;
-import com.aws.inventario.Repository.DynamoRepository;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/productos")
 public class ControllerRest {
 
-    private final DynamoRepository miRepositorio;
+    private final RestTemplate restTemplate;
 
-    public ControllerRest(DynamoRepository miRepositorio) {
-        this.miRepositorio = miRepositorio;
+    private final String apiGatewayUrl = "https://35fjsu9dk2.execute-api.us-east-1.amazonaws.com/productos";
+
+    public ControllerRest() {
+        this.restTemplate = new RestTemplate();
     }
 
-    // Insertar un ítem en DynamoDB
-    @PostMapping("/guardar")
-    public String guardar(@RequestBody Producto entidad) {
-        miRepositorio.guardar(entidad);
-        return "Dato guardado en DynamoDB";
+    @PostMapping
+    public ResponseEntity<String> crearProducto(@RequestBody Map<String, String> requestBody) {
+        Map<String, String> lambdaBody = new HashMap<>();
+        lambdaBody.put("action", "createProduct");
+        lambdaBody.put("nombre", requestBody.get("nombre"));
+        String response = restTemplate.postForObject(apiGatewayUrl, lambdaBody, String.class);
+        return ResponseEntity.ok("Lambda dice: " + response);
     }
 
-    // Obtener un ítem de DynamoDB
-    @GetMapping("/obtener/{id}")
-    public Producto obtener(@PathVariable String id) {
-        return miRepositorio.obtener(id);
+    @GetMapping
+    public ResponseEntity<String> obtenerProductos() {
+
+        Map<String, String> lambdaBody = new HashMap<>();
+        lambdaBody.put("action", "getAllProducts");
+        String response = restTemplate.postForObject(apiGatewayUrl, lambdaBody, String.class);
+
+        return ResponseEntity.ok(response);
     }
 }
-
