@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="" />
+    <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/InventarioAWSBackend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/inventario.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/Config/DynamoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/Config/DynamoMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/InventarioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/Model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/java/com/aws/inventario/Repository/DynamoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/inventario/inventario/src/test/java/com/aws/inventario/InventarioApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,17 +72,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.InventarioApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/benro/Desktop&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.InventarioApplication.executor": "Run",
+    "Maven.inventario [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/benro/Desktop"
   }
-}</component>
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
