@@ -1,25 +1,30 @@
 package com.aws.inventario.Model;
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
+
+@Getter
 @Setter
-@DynamoDBTable(tableName = "TablaPrueba")
-public class Producto {
-    private String id;
+@NoArgsConstructor
+@AllArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL) // Ignora valores nulos en la respuesta
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Producto implements Serializable{
+
+    @JsonProperty("id_producto")
+    private String id_producto;
+    @JsonProperty("nombre")
     private String nombre;
-
-    @DynamoDBHashKey(attributeName = "id")
-    public String getId() {
-        return id;
-    }
-
-    @DynamoDBAttribute(attributeName = "nombre")
-    public String getNombre(){
-        return nombre;
-    }
+    @JsonProperty("precio")
+    private double precio;
+    @JsonProperty("cantidad")
+    private int cantidad;
 
 }
