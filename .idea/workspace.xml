@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Model/Transaccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceTransacciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerColecciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Model/Coleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceColecciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceProductos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

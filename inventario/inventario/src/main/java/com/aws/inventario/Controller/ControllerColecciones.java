@@ -2,6 +2,7 @@ package com.aws.inventario.Controller;
 
 import com.aws.inventario.Model.Coleccion;
 import com.aws.inventario.Model.Producto;
+import com.aws.inventario.Service.ServiceColecciones;
 import com.aws.inventario.Service.ServiceProductos;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
@@ -12,13 +13,13 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/productos")
-public class ControllerProductos {
+@RequestMapping("/api/colecciones")
+public class ControllerColecciones {
 
-    private final ServiceProductos serviceProductos;
+    private final ServiceColecciones serviceColecciones;
 
-    public ControllerProductos(ServiceProductos serviceProductos){
-        this.serviceProductos = serviceProductos;
+    public ControllerColecciones(ServiceColecciones serviceColecciones){
+        this.serviceColecciones = serviceColecciones;
     }
 
     // Metodo para añadir las cabeceras a cada respuesta
@@ -33,12 +34,12 @@ public class ControllerProductos {
     // Redirige a /all en caso de que la ruta no este controlada
     @GetMapping("/*")
     public RedirectView fallbackRedirect() {
-        return new RedirectView("/api/productos/all");
+        return new RedirectView("/api/colecciones/all");
     }
 
     @GetMapping("/all")
-    public Mono<ResponseEntity<List<Producto>>> obtenerAllProductos() {
-        return serviceProductos.getAllProductos()
-                .map(productos -> cabeceras(ResponseEntity.ok()).body(productos));
+    public Mono<ResponseEntity<List<Coleccion>>> obtenerAllColecciones() {
+        return serviceColecciones.getAllColecciones()
+                .map(colecciones -> cabeceras(ResponseEntity.ok()).body(colecciones));
     }
 }
