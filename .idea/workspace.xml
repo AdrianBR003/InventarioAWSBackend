@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Model/Transaccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceTransacciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Config/DynamoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Config/DynamoMapperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Repository/DynamoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceProductos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

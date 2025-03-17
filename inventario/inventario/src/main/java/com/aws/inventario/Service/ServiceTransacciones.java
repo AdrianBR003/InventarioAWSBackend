@@ -1,6 +1,7 @@
 package com.aws.inventario.Service;
 
 import com.aws.inventario.Model.Producto;
+import com.aws.inventario.Model.Transaccion;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.http.MediaType;
@@ -11,21 +12,22 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @Service
-public class ServiceProductos {
+public class ServiceTransacciones {
 
     private final WebClient webClient;
 
-    public ServiceProductos(WebClient.Builder webClientBuilder) {
+    public ServiceTransacciones(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder
-                .baseUrl("https://35fjsu9dk2.execute-api.us-east-1.amazonaws.com/productos")
+                .baseUrl("https://35fjsu9dk2.execute-api.us-east-1.amazonaws.com/transacciones")
                 .build();
     }
 
-    public Mono<List<Producto>> getAllProductos() {
+    public Mono<List<Transaccion>> getAllTransacciones() {
         return webClient.get()
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
-                .bodyToFlux(Producto.class)
+                .bodyToFlux(Transaccion.class)
                 .collectList();
     }
 }
+
