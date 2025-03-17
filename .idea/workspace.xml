@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/inventario/inventario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +57,10 @@
     "Maven.inventario.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "releasev1",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/benro/Desktop/release/InventarioAWSBackend",
+    "last_opened_file_path": "C:/Users/benro/Desktop/InventarioAWSBackend",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

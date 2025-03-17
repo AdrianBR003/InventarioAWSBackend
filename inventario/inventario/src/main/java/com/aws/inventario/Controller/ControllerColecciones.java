@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://frontend-inventario.s3-website-us-east-1.amazonaws.com/")
 @RestController
 @RequestMapping("/api/colecciones")
 public class ControllerColecciones {
