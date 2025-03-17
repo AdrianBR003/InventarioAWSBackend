@@ -3,10 +3,7 @@ package com.aws.inventario.Model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 
@@ -27,4 +24,13 @@ public class Producto implements Serializable{
     @JsonProperty("cantidad")
     private int cantidad;
 
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "id_producto='" + id_producto + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                ", cantidad=" + cantidad +
+                '}';
+    }
 }

@@ -13,6 +13,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/transacciones")
 public class ControllerTransacciones {
@@ -26,7 +27,6 @@ public class ControllerTransacciones {
     // Metodo para añadir las cabeceras a cada respuesta
     private ResponseEntity.BodyBuilder cabeceras(ResponseEntity.BodyBuilder responseBuilder) {
         return responseBuilder
-                .header(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:3000")
                 .header(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "GET, POST, OPTIONS")
                 .header(HttpHeaders.ACCESS_CONTROL_ALLOW_HEADERS, "Content-Type, Authorization")
                 .header(HttpHeaders.CONTENT_TYPE, "application/json"); // Asegura que sea JSON
