@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20d43cc-a120-44a2-a8fd-1324a8e62f1e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerColecciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerColecciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Controller/ControllerTransacciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceColecciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceColecciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario/src/main/java/com/aws/inventario/Service/ServiceTransacciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,28 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.InventarioApplication.executor": "Run",
-    "Maven.inventario [-version].executor": "Run",
-    "Maven.inventario [clean,install,package].executor": "Run",
-    "Maven.inventario [clean,install].executor": "Run",
-    "Maven.inventario [clean].executor": "Run",
-    "Maven.inventario [install].executor": "Run",
-    "Maven.inventario [validate].executor": "Run",
-    "Maven.inventario.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/benro/Desktop/InventarioAWSBackend",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InventarioApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [-version].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [clean,install,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventario.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/benro/Desktop/InventarioAWSBackend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn " />
