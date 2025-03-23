@@ -47,7 +47,7 @@ public class ControllerColecciones {
                 .map(coll -> cabecerasB(ResponseEntity.ok()).body(coll));
     }
 
-   
+
     @PutMapping
     public Mono<ResponseEntity<Coleccion>> modificarColeccion(@RequestBody Coleccion coleccion) {
         return serviceColecciones.modifyColeccion(coleccion)
